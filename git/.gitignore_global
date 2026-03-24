@@ -1,0 +1,30 @@
+# --- 编辑器产生的临时文件 ---
+# Vim 产生的交换文件（当你没正常关闭 Vim 时会出现）
+*.swp
+*.swo
+.swp.nfs*
+
+# 很多 Linux 编辑器产生的自动备份文件
+*~
+# Emacs 产生的临时文件
+\#*\#
+.#*
+
+# --- 系统产生的垃圾 ---
+# 虽然是 Linux，但如果挂载了 Windows 分区或与 Mac 同事协作，建议也加上
+.DS_Store
+Thumbs.db
+
+# --- 编程语言产生的通用垃圾 ---
+# Python 编译文件（如果你用 Python 运行 git-filter-repo 等工具）
+__pycache__/
+*.py[cod]
+
+# 常见的日志文件
+*.log
+
+# --- IDE 配置（可选，但推荐） ---
+.vscode/
+.idea/
+.project
+.settings/
